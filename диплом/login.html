@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>loginr</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="logo-head">
+		<div class="logo-logo">
+			<a href="homepage.html"><img src="images/logo.png" alt="Logo"></a><span>Hosting</span>
+		</div>
+		<form action="homepage.html">
+			<button class="bhome">Home</button>
+		</form>
+	</div>
+	<div>
+		<form action="http://fe.it-academy.by/TestForm.php" method="post">
+			<div class="container">
+				<h1>Account enter</h1>
+				<hr>
+				<label for="login"><b>Login</b></label>
+				<input id="login" type="text" placeholder="Enter Login" name="login" required>
+				<label for="psw"><b>Password</b></label>
+				<input id="psw" placeholder="Enter Password" type="password" name="psw" required>
+				<button type="submit" class="registerbtn">Enter account</button>
+			</div>
+		</form>
+	</div>
+	<div class="container signin">
+		<p>Already have an account? <a href="error.html">Sign in</a>.</p>
+	</div>
+</body>
+</html>

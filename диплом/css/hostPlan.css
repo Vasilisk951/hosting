@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+header {
+	padding: 0 5%;
+}
+header div.logo-head {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 25px 0;
+	padding: 0 0.5%;
+}
+header div.logo-head div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+header div.logo-head div span {
+	font-family: monospace;
+	font-size: x-large;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.button {
+	border-style: none;
+	border-right-style: solid;
+	border-color: #bdbdb3;
+	background-color: white;
+	color: #868482;
+	width: 90px;
+	height: 30px;
+	padding: 0;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #F1F1F1;
+}
+.button:focus {
+	outline: none;
+}
+
+.login {
+	border-right-style: none;
+	width: 70px;
+}
+header div.logo-head div.hamburger {
+	display: none;
+}
+nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 56px;
+	background-color:#ff8261;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+}
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	margin: 0 auto;
+	padding: 19px 2px;
+	white-space: nowrap;
+}
+nav a:hover {
+	background-color: #ff724d;
+	padding: 19px 2px;
+}
+nav a[href="hostPlans.html"],
+nav a[href="hostPlans.html"]:hover {
+	background-color: #52cbf8;
+	margin-left: 0;
+	padding: 19px;
+}
+.logo {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.logo span:first-child {
+	border-top-style: solid;
+	width: 20px;
+	color: #ff8261;
+}
+.logo span:nth-child(2){
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 200;
+	color: #aebcc0;
+	margin: 5px 0;
+}
+.logo span:last-child {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 900;
+	color: #556b72;
+}
+.steps {
+	padding: 5% 5.5%;
+}
+.steps-logo {
+	margin-bottom: 50px;
+}
+.steps-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.steps-item {
+	display: flex;
+	padding: 10px 10px 10px 0;
+	width: 30%;
+}
+.steps-num {
+	display: table;
+	width: 50px;
+	height: 50px;
+	background-color: #fb6b45;
+	text-align: center;
+}
+.steps-num span {
+	line-height: 50px;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.steps-text {
+	margin: 15px 0 0 10px;
+}
+.steps-text span {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #556b72;
+}
+.steps-text p {
+	color:  #adb4c0;
+}
+.tplan {
+	padding: 5% 5.5%;
+	background-color: #e7f4f8; 
+}
+.tplan-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between; 
+	margin: 35px 0;
+}
+.tplan-item div {
+	width: 20%;
+	border: solid #e1eff4 1px ;
+	padding: 10px;
+	text-align: center;
+	background-color: #fff;
+}
+.tplan-item span {
+	display: block;
+	margin: 20px;
+}
+.tplan-item span:nth-child(1) {
+	color: #556b72;
+	font-size: 2.3em;
+	font-weight: bold;
+	letter-spacing: -5px;
+	margin: 10px 10px 0 10px;
+}
+.tplan-item span:nth-child(2) {
+	color: #556b72;
+	margin: 0 10px 10px 10px;
+	text-transform: uppercase;
+}
+.tplan-item span:nth-child(3) {
+
+	background-color: #52cbf8;
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	font-weight: bold;
+}
+.tplan-item span:nth-child(1n+4) {
+	color: #a0a9b6;
+	border-bottom: solid #e1eff4 1px
+}
+.tplan-item a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 10px 0 0 0;
+	padding: 15px 25px;
+	background-color: #ff8261;
+	color: white;
+}
+.tplan-item a:hover {
+	background-color: #ff987a;
+}
